@@ -57,3 +57,9 @@ http://localhost:8082/static/visualiser/index.html
 ```
 
 Run your tasks (remembering to reset state by removing your output targets), and see the scheduler update.
+
+Once you're done, shut down the scheduler with:
+
+```
+cat pid.txt | xargs kill -9
+```
